@@ -27,7 +27,7 @@ export default defineConfig(
                         preserveModules: true,
                         exports: 'named',
                         //配置打包根目录
-                        dir: resolve(__dirname, './dist/es'),
+                        dir: resolve(__dirname, './es'),
 
                     },
                     {
@@ -38,14 +38,14 @@ export default defineConfig(
                         preserveModules: true,
                         exports: 'named',
                         //配置打包根目录
-                        dir: resolve(__dirname, './dist/lib'),
+                        dir: resolve(__dirname, './lib'),
 
                     }
                 ]
             },
             lib: {
                 entry: './index.ts',
-                name: 'kitty',
+                name: 'fiction',
             }
         },
 
@@ -54,7 +54,7 @@ export default defineConfig(
             DefineOptions(),
             dts({
                 entryRoot: 'src',
-                outputDir: [resolve(__dirname, './dist/es/src'), resolve(__dirname, './dist/lib/src')],
+                outputDir: [resolve(__dirname, './es/src'), resolve(__dirname, './lib/src')],
                 //指定使用的tsconfig.json为我们整个项目根目录下掉,如果不配置,你也可以在components下新建tsconfig.json
                 tsConfigFilePath: '../../tsconfig.json'
             }),
