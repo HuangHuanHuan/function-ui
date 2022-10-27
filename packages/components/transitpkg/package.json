@@ -12,7 +12,7 @@
     "vue3组件库"
   ],
   "dependencies": {
-    "@fiction-ui/utils": "2.0.3"
+    "@fiction-ui/utils": "2.0.4"
   },
   "sideEffects": [
     "**/*.css"

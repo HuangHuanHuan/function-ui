@@ -54,13 +54,13 @@ importers:
 
   examples:
     specifiers:
-      fiction-ui: workspace:^1.0.0
+      fiction-ui: workspace:^1.0.2
     dependencies:
       fiction-ui: link:../packages/components
 
   packages/components:
     specifiers:
-      '@fiction-ui/utils': workspace:2.0.3
+      '@fiction-ui/utils': workspace:2.0.4
     dependencies:
       '@fiction-ui/utils': link:../utils
 
