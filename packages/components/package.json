@@ -1,5 +1,5 @@
 {
-  "name": "function-ui",
+  "name": "fiction-ui",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -12,7 +12,7 @@
     "lib"
   ],
   "keywords": [
-    "kitty-ui",
+    "fiction-ui",
     "vue3组件库"
   ],
   "author": "小月",
@@ -20,6 +20,6 @@
   "description": "",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@function-ui/utils": "workspace:^2.0.3"
+    "@fiction-ui/utils": "workspace:2.0.3"
   }
 }

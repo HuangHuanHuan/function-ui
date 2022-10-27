@@ -14,7 +14,7 @@
     </div>
 </template>
 <script lang="ts" setup>
-import { Button } from "function-ui";
+import { Button } from "fiction-ui";
 import { ref } from "vue";
 
 console.log("Button", Button);

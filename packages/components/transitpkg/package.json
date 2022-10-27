@@ -1,5 +1,5 @@
 {
-  "name": "function-ui",
+  "name": "fiction-ui",
   "version": "4.0.3",
   "main": "lib/index.js",
   "module": "es/index.mjs",
@@ -12,7 +12,7 @@
     "vue3组件库"
   ],
   "dependencies": {
-    "@kitty-ui/utils": "2.0.3"
+    "@fiction-ui/utils": "2.0.3"
   },
   "sideEffects": [
     "**/*.css"
