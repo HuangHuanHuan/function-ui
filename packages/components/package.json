@@ -1,16 +1,16 @@
 {
   "name": "fiction-ui",
-  "version": "1.0.4",
-  "main": "lib/index.js",
-  "module": "es/index.js",
+  "version": "1.0.5",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
   "scripts": {
     "build": "vite build",
+    "build:less": "esno build/buildLess",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
   "files": [
-    "es",
-    "lib"
+    "dis"
   ],
   "keywords": [
     "fiction-ui",
