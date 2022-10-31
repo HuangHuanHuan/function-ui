@@ -1,11 +1,10 @@
 {
   "name": "fiction-ui",
   "version": "4.0.3",
-  "main": "lib/index.js",
-  "module": "es/index.mjs",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.mjs",
   "files": [
-    "es",
-    "lib"
+    "dist"
   ],
   "keywords": [
     "kitty-ui",
