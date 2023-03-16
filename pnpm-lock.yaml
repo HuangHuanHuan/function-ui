@@ -54,8 +54,10 @@ importers:
 
   examples:
     specifiers:
+      '@fiction-ui/utils': workspace:^2.0.4
       fiction-ui: workspace:^1.0.4
     dependencies:
+      '@fiction-ui/utils': link:../packages/utils
       fiction-ui: link:../packages/components
 
   packages/components:

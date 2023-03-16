@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fiction-ui/utils": "workspace:^2.0.4",
     "fiction-ui": "workspace:^1.0.4"
   }
 }

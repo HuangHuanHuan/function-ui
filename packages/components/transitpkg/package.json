@@ -1,13 +1,13 @@
 {
   "name": "fiction-ui",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "main": "dist/lib/index.js",
   "module": "dist/es/index.mjs",
   "files": [
     "dist"
   ],
   "keywords": [
-    "kitty-ui",
+    "funciton-ui",
     "vue3组件库"
   ],
   "dependencies": {
@@ -16,7 +16,7 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "author": "小月",
+  "author": "function",
   "license": "MIT",
   "description": "",
   "typings": "lib/index.d.ts"

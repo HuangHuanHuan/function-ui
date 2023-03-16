@@ -8,16 +8,16 @@
             密&nbsp;&nbsp;&nbsp;码：<input type="text" />
         </Shake>
         <br> -->
-        <Button style="width: 50px;height: 30px;" type="primary" @click="trigger = true" size="small"></Button>
+        <k-button style="width: 50px;height: 30px;" type="primary"  @click="trigger = true" size="small"></k-button>
 
         <!-- <k-upload>111</k-upload> -->
     </div>
 </template>
 <script lang="ts" setup>
-import { Button } from "fiction-ui";
+// import { Button } from "fiction-ui";
 import { ref } from "vue";
 
-console.log("Button", Button);
+// console.log("Button", Button);
 
 const trigger = ref(true);
 </script>

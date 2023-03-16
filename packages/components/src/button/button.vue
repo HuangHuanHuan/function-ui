@@ -19,6 +19,9 @@ export default defineComponent({
     props: buttonProps,
     components: { Icon },
     setup(props) {
+        console.log('测试');
+        console.log('hahaha');
+        console.log('修改---');
 
         const styleClass = computed(() => {
             return {

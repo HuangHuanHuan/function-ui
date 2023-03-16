@@ -1,10 +1,11 @@
 import { createApp } from 'vue'
 import App from './app.vue'
 const app = createApp(App)
-// import kittyui from "kitty-ui"
-// import { Button } from 'kitty-ui'
-// app.use(kittyui)
-// app.use(Button)
-// console.log(kittyui);
+import { test } from '@fiction-ui/utils'
+import { Button } from 'fiction-ui'
+console.log(Button);
 
+app.use(Button)
+
+test()
 app.mount('#app') 
