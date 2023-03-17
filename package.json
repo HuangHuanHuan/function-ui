@@ -17,6 +17,7 @@
     "coverage": "pnpm run --filter ./packages/components coverage"
   },
   "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.1",
     "@types/gulp": "^4.0.9",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-less": "^0.0.32",
