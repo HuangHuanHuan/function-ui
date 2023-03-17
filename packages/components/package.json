@@ -7,7 +7,8 @@
     "build": "vite build",
     "build:less": "esno build/buildLess",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "release": "release-it"
   },
   "files": [
     "dist"
@@ -22,5 +23,9 @@
   "typings": "lib/index.d.ts",
   "dependencies": {
     "@fiction-ui/utils": "workspace:2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuangHuanHuan/function-ui"
   }
 }
