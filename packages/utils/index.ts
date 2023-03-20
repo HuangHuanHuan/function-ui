@@ -1,6 +1,5 @@
-export { default as withInstall } from "./withinstall"
+export { default as withInstall } from "./withinstall";
 
 export function test() {
-    console.log('test1111');
-    
+  console.log("test22222");
 }
